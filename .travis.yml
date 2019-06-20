@@ -15,4 +15,4 @@ on :
 deploy :
   provider : heroku
   api_key : $HEROKU_KEY
-  app : HEROKU_APP
+  app : $HEROKU_APP
